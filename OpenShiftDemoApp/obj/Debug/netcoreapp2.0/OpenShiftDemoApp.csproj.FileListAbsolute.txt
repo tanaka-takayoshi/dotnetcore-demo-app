@@ -1,0 +1,10 @@
+/home/tatanaka/Documents/git/tanaka-takayoshi/OpenShiftDemoApp/OpenShiftDemoApp/bin/Debug/netcoreapp2.0/OpenShiftDemoApp.deps.json
+/home/tatanaka/Documents/git/tanaka-takayoshi/OpenShiftDemoApp/OpenShiftDemoApp/bin/Debug/netcoreapp2.0/OpenShiftDemoApp.runtimeconfig.json
+/home/tatanaka/Documents/git/tanaka-takayoshi/OpenShiftDemoApp/OpenShiftDemoApp/bin/Debug/netcoreapp2.0/OpenShiftDemoApp.runtimeconfig.dev.json
+/home/tatanaka/Documents/git/tanaka-takayoshi/OpenShiftDemoApp/OpenShiftDemoApp/bin/Debug/netcoreapp2.0/OpenShiftDemoApp.dll
+/home/tatanaka/Documents/git/tanaka-takayoshi/OpenShiftDemoApp/OpenShiftDemoApp/bin/Debug/netcoreapp2.0/OpenShiftDemoApp.pdb
+/home/tatanaka/Documents/git/tanaka-takayoshi/OpenShiftDemoApp/OpenShiftDemoApp/obj/Debug/netcoreapp2.0/OpenShiftDemoApp.csproj.CoreCompileInputs.cache
+/home/tatanaka/Documents/git/tanaka-takayoshi/OpenShiftDemoApp/OpenShiftDemoApp/obj/Debug/netcoreapp2.0/OpenShiftDemoApp.AssemblyInfoInputs.cache
+/home/tatanaka/Documents/git/tanaka-takayoshi/OpenShiftDemoApp/OpenShiftDemoApp/obj/Debug/netcoreapp2.0/OpenShiftDemoApp.AssemblyInfo.cs
+/home/tatanaka/Documents/git/tanaka-takayoshi/OpenShiftDemoApp/OpenShiftDemoApp/obj/Debug/netcoreapp2.0/OpenShiftDemoApp.dll
+/home/tatanaka/Documents/git/tanaka-takayoshi/OpenShiftDemoApp/OpenShiftDemoApp/obj/Debug/netcoreapp2.0/OpenShiftDemoApp.pdb

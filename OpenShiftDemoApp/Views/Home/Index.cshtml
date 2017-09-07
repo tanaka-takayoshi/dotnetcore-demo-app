@@ -1,0 +1,60 @@
+﻿@using Microsoft.Extensions.Options
+@model HomeIndexViewModel
+@inject IOptions<HomeOption> OptionsAccessor
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-lg-8"><h2>Environment Variables</h2></div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Key</th>
+            <th>Value</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var env in @Model.EnvVars)
+        {
+            <tr>
+                <td>@env.Key</td>
+                <td>@env.Value</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+<div class="row">
+    <div class="col-lg-8"><h2>Options</h2></div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Key</th>
+            <th>Value</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Option1:</td>
+            <td>@OptionsAccessor.Value.Option1</td>
+        </tr>
+        <tr>
+            <td>Option2:</td>
+            <td>@OptionsAccessor.Value.Option2</td>
+        </tr>
+        <tr>
+            <td>SubOption1:</td>
+            <td>@OptionsAccessor.Value.SubOption1</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="col-lg-8">
+        <p>You can specify option with OpenShift configmaps.</p>
+        <pre><code>
+        $ oc config hogehoge
+        $ oc hogege
+        </code></pre>
+    </div>
+</div>
