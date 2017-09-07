@@ -53,8 +53,16 @@
     <div class="col-lg-8">
         <p>You can specify option with OpenShift configmaps.</p>
         <pre><code>
-        $ oc config hogehoge
-        $ oc hogege
+        $ vim appsetting.json
+{
+  "Option1": "Ignite!!",
+  "Option2": "2017",
+  "subsection": {
+    "SubOption1": "Container is Linux"
+  }
+}
+        $ oc create configmap demo-appsetting --from-file=appsettings.json
+        $ oc volume dc/&lt;deployment_config_name&gt; --add --type=configmap --configmap-name=demo-appsetting --mount-path=/etc/data
         </code></pre>
     </div>
 </div>
